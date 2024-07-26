@@ -1,0 +1,108 @@
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    width: 25%;
+    color: white;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+}
+
+#nav_bar_items_top{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#nav_bar_items_top a{
+    color: white;
+}
+
+#nav_bar_items_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav_bar_items_bottom a{
+    color: white;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+  }
+
+  .hero button {
+    width: 200px;
+    position: absolute;
+    bottom: 270px;
+    left: 50px;
+  }
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.explore__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.connect{
+    background-color:rgba(37, 32, 32, 0.835);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+}
+
+.connect__form p { 
+    color: white;
+}
+
+form {
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+.footer__element{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
